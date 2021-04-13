@@ -18,3 +18,7 @@ allow hal_displayfeature_default hidl_base_hwservice:hwservice_manager add;
 allow hal_displayfeature_default vendor_sysfs_graphics:file rw_file_perms;
 allow hal_displayfeature_default vendor_sysfs_graphics:dir r_dir_perms;
 allow hal_displayfeature_default vendor_sysfs_smart_fps:file rw_file_perms;
+allow hal_displayfeature_default vendor_hal_display_postproc_hwservice:hwservice_manager { find };
+allow hal_displayfeature_default system_server:binder { call };
+allow hal_displayfeature_default vendor_display_prop:property_service { set };
+
