@@ -18,7 +18,6 @@
 <resources>
 
     <!-- The padding of the statusbar -->
-    <dimen name="status_bar_padding_top">8dp</dimen>
-    <dimen name="status_bar_padding_end">30px</dimen>
-
+    <dimen name="rounded_corner_content_padding">55.0px</dimen>
+    <dimen name="status_bar_padding_top">1.0dip</dimen>
 </resources>
